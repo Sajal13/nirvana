@@ -1646,7 +1646,7 @@ var preloaderInit = function preloaderInit() {
     preloader === null || preloader === void 0 || preloader.classList.add('loaded');
     setTimeout(function () {
       preloader === null || preloader === void 0 || preloader.remove();
-    }, 600);
+    }, 300);
   });
 };
 
