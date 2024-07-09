@@ -1683,8 +1683,8 @@ var swiperInit = function swiperInit() {
         slides += "\n          <div class='swiper-slide'\">\n            <img class='img-fluid mt-1' src=".concat(img.src, " alt=''/>\n          </div>\n        ");
       });
       var thumbs = document.createElement('div');
-      thumbs.setAttribute('class', 'swiper thumb');
-      thumbs.innerHTML = "<div class='swiper-wrapper rounded-3 overflow-hidden'>".concat(slides, "</div>");
+      thumbs.setAttribute('class', 'swiper thumb rounded-3');
+      thumbs.innerHTML = "<div class='swiper-wrapper overflow-hidden'>".concat(slides, "</div>");
       if (thumbsOptions.parent) {
         var parent = document.querySelector(thumbsOptions.parent);
         parent.parentNode.appendChild(thumbs);
