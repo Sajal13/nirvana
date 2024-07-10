@@ -21179,14 +21179,6 @@ pre[class*=language-] {
   padding: 0.2rem !important;
 }
 
-.table {
-  margin-bottom: 4rem;
-}
-
-table:not(.table-dark) th {
-  background-color: var(--nirvana-gray-200) !important;
-}
-
 /*-----------------------------------------------
 |   Pre-loader
 -----------------------------------------------*/
